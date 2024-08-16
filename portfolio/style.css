@@ -1,0 +1,355 @@
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	-outline: 0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html, body 
+	{
+	font-size: 14px;
+	font-weight: 400;
+	background: #000000;
+	color: #fff;
+}
+.container {
+	width: 1100px;
+	margin: 0px auto;
+	display: table;
+}
+.width-33 {
+	width: 33%;
+	float: left;
+}
+.width-66 {
+	width: 66%;
+	float: left;
+}
+.main-panel {
+	width: 100%;
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	height: 100vh;
+}
+.logo {
+	font-size: 40px;
+	font-weight: 600;
+}
+.span-col {
+	color: #ffbf35;
+}
+nav {
+	float: right;
+}
+nav a {
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 500;
+	margin-left: 20px;
+	color: white;
+}
+
+.width-50 {
+	float: left;
+	width: 50%;
+}
+#banner {
+    background-image: linear-gradient(
+        to bottom,
+        rgb(247, 208, 208),
+        rgb(186, 122, 122),
+    );
+
+    background-image: url("black_leaf.png");
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    padding: 20px; 
+    text-align: center;
+	width: 100%;
+}
+#banner h1{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 48px;
+}
+#banner p{
+    font-size: 20px;
+    color: white;
+}
+
+.main-section {
+	width: 100%;
+	float: left;
+	padding: 110px 0px 110px 0px;
+}
+.width-100 {
+	width: 100%;
+	float: left;
+}
+.mt-20 {
+	margin-top: 20px;
+}
+.heading-text {
+	width: 100%;
+	float: left;
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 50px;
+	color: #ffbf35;
+}
+.about-us {
+    padding: 20px;
+}
+
+.about-us p {
+    font-size: 16px;
+    line-height: 1.7;
+	text-align: center;
+}
+
+.contact-details table {
+    width: 100%;
+    border-collapse: collapse;
+	align-items: center;
+}
+
+.contact-details th{
+    padding: 8px;
+    text-align: right;
+	width: 50%;
+    font-weight: bold;
+}
+
+.contact-details td {
+    padding: 8px;
+    text-align: left;
+	width: 50%;
+}
+
+.a{
+    color: white;
+    border: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: underline;
+	text-align: left;
+}
+.a:hover{
+    padding: 10px;
+}
+
+.skill {
+	margin-top: 30px;
+	font-size: 17px;
+}
+
+.skill span {
+	float: right;
+}
+
+.skill div {
+	width: 100%;
+	float: left;
+	margin-top: 5px;
+	background: #e7e7e7;
+	border-radius: 10px;
+}
+
+.skill div span {
+	background: #ffbf35;
+	height: 5px;
+	float: left;
+}
+
+div[role="progressbar"] {
+	color: #ffbf35;
+	margin-left: 100px;
+	margin-bottom: 20px;
+	width: 100px;
+	;
+	height: 100px;
+	;
+	border-radius: 50%;
+
+	place-items: center;
+	display: grid;
+
+	--pgPercentage: var(--value);
+	background: radial-gradient(closest-side, black 80%, transparent 0 99.9%, black 0),
+		conic-gradient(#ffbf35 calc(var(--pgPercentage) * 1%), #ffe6af 0);
+
+}
+
+.bg-lightgrey {
+	background-color: #1a1a1a;
+}
+.edu-exp {
+	padding: 10px 0px;
+	width: 48%;
+	margin: 1%;
+	float: left;
+	padding-left: 10px;
+}
+.experience-list {
+	width: 100%;
+	float: left;
+	padding: 30px 10px;
+	background: #262626;
+	margin-bottom: 20px;
+}
+.experience-content {
+	width: 100%;
+	float: left;
+	margin-left: 10px;
+}
+.experience-content h2 {
+
+	font-weight: 600;
+	margin-bottom: 5px;
+	font-size: 20px;
+}
+.experience-content h3 {
+	color: #ffbf35;
+	font-weight: 500;
+	margin-bottom: 2px;
+	font-size: 17px;
+}
+.experience-content p {
+	font-size: 15px;
+}
+
+.service-list {
+	padding: 40px;
+	margin-top: 35px;
+	background: #262626;
+	border-radius: 15px;
+	width: 94%;
+	float: left;
+}
+
+.service-list i {
+	font-size: 50px;
+	color: #ffbf35;
+	width: 70px;
+	float: left;
+}
+
+.service-list h3 {
+	font-size: 28px;
+	margin-top: 8px;
+	margin-bottom: 10px;
+}
+
+.service-list h5 {
+	font-size: 15px;
+	margin-top: 8px;
+	margin-bottom: 10px;
+	color: #ffbf35;
+}
+.service-list p {
+	font-size: 15px;
+	line-height: 25px;
+}
+
+.testimonial {
+	width: 32%;
+	float: left;
+	margin-right: 1%;
+	margin-top: 50px;
+}
+
+.testimonial-content {
+	background: #262626;
+	color: #cfcfcf;
+	width: 100%;
+	float: left;
+	padding: 20px 20px 20px 20px;
+	font-size: 16px;
+	line-height: 28px;
+	position: relative;
+	text-align: center
+}
+
+.testimonial i {
+	color: #ffbf35;
+	font-size: 35px;
+	margin-top: 60px;
+}
+
+.testimonial-name {
+	width: 100%;
+	float: left;
+}
+
+.testimonial-name h5 {
+	color: #ffbf35;
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+.testimonial-name h6 {
+	font-size: 17px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.testimonial-name p {
+	font-size: 16px;
+}
+
+.contact form {
+	width: 66%;
+	margin: 0px auto;
+}
+.contact input,
+textarea {
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;
+	height: 40px;
+	padding: 10px;
+	border: 1px solid #a1a1a1;
+}
+.contact textarea {
+	height: 80px;
+}
+.contact button {
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;
+	height: 40px;
+	padding: 10px;
+	background: #ffbf35;
+	color: #fff;
+	border: none;
+	font-size: 16px;
+}
+.contact h3 {
+	font-size: 26px;
+	text-align: center;
+	margin-top: 60px;
+	color: #ffbf35;
+}
+.contact h4 {
+	font-size: 22px;
+	text-align: center;
+	margin-top: 10px;
+}
+.contact p {
+	text-align: center;
+	font-size: 16px;
+	margin-top: 5px;
+}
+
+.footer {
+	background-color: #202020;
+	padding: 30px 0px 40px 0px;
+	width: 100%;
+}
+.footer-sect {
+	color: #b3b3b3;
+	text-align: center;
+}
